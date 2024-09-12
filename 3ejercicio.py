@@ -36,20 +36,15 @@ def costo_estacionamiento(vehiculo, dias):
     costo_total = costo_diario * dias
     return costo_total
 
-# Ejemplo de uso:
-
-# a. Asignación de aula
 dia = int(input("Ingrese el número de día (1 a 6): "))
 print(asignar_aula(dia))
 
-# b. Cálculo de descuento en la cuota
 turno = input("Ingrese el turno (Mañana/Tarde): ")
 num_materias = int(input("Ingrese el número de materias en las que se inscribe: "))
 cuota_base = float(input("Ingrese el valor de la cuota base: "))
 cuota_con_descuento = calcular_descuento(turno, num_materias, cuota_base)
 print(f"El valor de la cuota con descuento es: ${cuota_con_descuento:.2f}")
 
-# c. Cálculo del costo de estacionamiento
 vehiculo = input("Ingrese el tipo de vehículo (auto/moto/bicicleta): ")
 dias = int(input("Ingrese el número de días que utilizará el estacionamiento: "))
 costo = costo_estacionamiento(vehiculo, dias)
