@@ -1,5 +1,3 @@
-#REGISTROS DE ALUMNOS#
-
 def registrar_alumno():
     print("------ Registro de Inscripción de Alumnos ------")
     

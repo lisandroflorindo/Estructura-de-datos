@@ -1,5 +1,3 @@
-#NOTAS ALUMNOS#
-
 def obtener_datos_alumno():
     nota1 = float(input("Ingrese la nota del primer examen: "))
     nota2 = float(input("Ingrese la nota del segundo examen: "))
